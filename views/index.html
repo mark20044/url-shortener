@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>URL Shortener</title>
+      <link rel="shortcut icon" href="http://markworks.net/wp-content/uploads/fbrfg/favicon.ico" type="image/x-icon"/>
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+      <link href="/public/style.css" rel="stylesheet" type="text/css">
+   </head>
+
+   <body>
+      <div class="container">
+         <h1>URL Shortener</h1>
+         <h3>Input the url to be shortened</h3>
+          <input id="toShorten" type="text"><button onclick="window.location = '/s/' + document.getElementById('toShorten').value">Shorten</button>
+      </div>
+   </body>
+
+</html>
